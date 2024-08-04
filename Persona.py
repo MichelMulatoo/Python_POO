@@ -9,9 +9,6 @@ class Persona:
         print(f'Persona: {self.nombre} {self.apellido} {self.edad}')
 
 
-
-
-
 persona1 = Persona('Michel', 'Mulato','31')
 persona1.mostrar_detalles()
 #Persona.mostrar_detalles(persona1)
