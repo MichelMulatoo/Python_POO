@@ -19,3 +19,5 @@ altura = int(input('Ingresa la altura: '))
 
 rectangulo2 = Rectangulo(base, altura)
 print(f'Area de la rectangulo: {rectangulo2.calula_area()}')
+
+print()
