@@ -34,9 +34,15 @@ class Persona:
         print(f'Persona: {self._nombre} {self._apellido} {self._edad}')
 
 
-persona1 = Persona('Michel', 'Mulato','31')
-persona1.nombre = 'Dayana Carrasco'
+    def __del__(self):# Destructor de nuestro objeto
+        print(f'Persona: {self._nombre} {self._apellido}')
 
-persona1.apellido = 'Carrasco'
-persona1.edad = 25
-persona1.mostrar_detalles()
+if __name__ == '__main__':
+    persona1 = Persona('Michel', 'Mulato','31')
+    persona1.nombre = 'Dayana Carrasco'
+
+    persona1.apellido = 'Carrasco'
+    persona1.edad = 25
+    persona1.mostrar_detalles()
+
+    print( __name__)
