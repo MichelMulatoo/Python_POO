@@ -8,6 +8,7 @@ persona1.mostrar_detalles()
 
 
 print('Eliminacion objetos'.center(30, '-'))
+
 del persona1
 
 
