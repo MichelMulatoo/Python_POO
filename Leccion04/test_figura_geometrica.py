@@ -1,5 +1,10 @@
 from Cuadrado import Cuadrado
+from FiguraGeometrica import FiguraGeometrica
 from Rectangulo import Rectangulo
+
+
+#No se puede instanciar una clase abstracta
+# figura = FiguraGeometrica()
 
 
 print('Creacion objeto cuadrado'.center(50, '-') )
@@ -17,3 +22,6 @@ rectangulo1.ancho = 15
 
 print(f'Calculo area Rectangulo: {rectangulo1.calcularArea()}')
 print(rectangulo1)
+
+#Method Resolution Order
+print(Cuadrado.mro())
