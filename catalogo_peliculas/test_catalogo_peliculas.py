@@ -22,4 +22,5 @@ while opcion != 4:
         print(f'Ocurrió un error {e}')
         opcion = None
 else:
-    print('Salimos del programa...')
+    print('Salimos del programa ...')
+    print('Terminandoooooo')
